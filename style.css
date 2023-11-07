@@ -1,0 +1,86 @@
+.holder{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.navbar{
+    height: 15vh;
+    background-color: #E8CFC6;
+}
+.navbar p{
+    float: left;
+    font-size: 5vh;
+    margin-left: 16vh;
+    margin-top: 4vh;
+    font-family: avenir;
+}
+.navbar a{
+    float: right;
+    margin-right: 5vw;
+    margin-top: 6vh;
+    font-size: 3vh;
+    font-family: avenir;
+    text-decoration: none;
+    color: #000;
+}
+.body{
+    height: 70vh;
+    background-color: #FFECE6;
+    padding-top: 3vh;
+}
+.body h1{
+    font-size: 20vh;
+    text-align: center;
+    font-family: pf italic;
+}
+.body p{
+    font-size: 6vh;
+    font-family: avenir;
+    text-align: center;
+    margin-top: -10vh;
+}
+.body a{
+    font-size: 5vh;
+    font-family: avenir;
+    text-align: center;
+    margin-left: 43vw;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 2vh;
+    color: black;
+}
+.footer{
+    height: 13vh;
+    background-color: #E8CFC6 ;
+}
+.backdrop2{
+    height: 70vh;
+    background-color: #FFECE6;
+}
+.backdrop2 img{
+    height: 60vh;
+    margin-top: 3vh;
+    margin-left: -10vw;
+}
+.backdrop2 h{
+    font-size: 13vh;
+    font-family: pf italic;
+    margin-left: 5vw;
+    position: relative;
+    top: -50vh;
+}
+.backdrop2 p{
+    font-size: 5vh;
+    font-family: avenir;
+    margin-left: 34vw;
+    text-align: justify;
+    margin-top: -49vh;
+    margin-right: 20vw;
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(static/PlayfairDisplay-BoldItalic.ttf)
+}
+@font-face {
+    font-family: avenir;
+    src: url(avenir_ff/AvenirLTStd-Book.otf)
+}
